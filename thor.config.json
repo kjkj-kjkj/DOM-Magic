@@ -1,0 +1,22 @@
+{
+    "owner": "YOUR_PFCAMPUS_USERNAME",
+    "project": "PROJECT_NAME",
+    "licence": "MIT LICENSE",
+    "action": {
+        "tests": [
+            {
+                "skip": false,
+                "setupFile": "_campus/setup.js",
+                "testFiles": ["_campus/test.js"],
+                "main": "main.js"
+            }
+        ],
+        "deploy": {
+            "skip": true,
+            "notify_on_fail": true
+        },
+        "submission": { "skip": false }
+    },
+    "permission_request": [],
+    "thorVersion": "3.0.0"
+}
